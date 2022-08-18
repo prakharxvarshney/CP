@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class Leetcode1400 {
-    public boolean canConstruct(String s, int k) {
+    public static boolean canConstruct(String s, int k) {
         int odd=0;
         if(s.length()<k) return false;
         else if(s.length()==k) return true;
@@ -21,6 +21,11 @@ public class Leetcode1400 {
 
         }
         return odd<=k;
+    }
 
+    public static void main(String[] args) {
+        String s="true";
+        int k=4;
+        System.out.println(canConstruct(s,k));
     }
 }
