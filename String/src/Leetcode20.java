@@ -1,5 +1,4 @@
 import java.util.Stack;
-
 public class Leetcode20 {
         public static boolean isValid(String s) {
             Stack<Character> st = new Stack<>();
