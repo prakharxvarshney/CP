@@ -10,7 +10,6 @@ public class Leetcode1593 {
     {
         if(idx>=s.length())
             return 0;
-
         int ans=0;
 
         for(int i=idx;i<s.length();i++)
